@@ -1,6 +1,8 @@
 // Testimonial Carousel
 document.addEventListener('DOMContentLoaded', function () {
-  let multipleCardCarousel = document.querySelector('#carouselExampleControls');
+  let multipleCardCarousel = document.querySelector(
+    '#carouselTestimonialControls'
+  );
 
   if (window.matchMedia('(min-width: 768px)').matches) {
     let carousel = new bootstrap.Carousel(multipleCardCarousel, {
@@ -13,23 +15,23 @@ document.addEventListener('DOMContentLoaded', function () {
     let scrollPosition = 0;
 
     document
-      .querySelector('#carouselExampleControls .carousel-control-next')
+      .querySelector('#carouselTestimonialControls .carousel-control-next')
       .addEventListener('click', function () {
         if (scrollPosition < carouselWidth - cardWidth * 4) {
           scrollPosition += cardWidth;
           document
-            .querySelector('#carouselExampleControls .carousel-inner')
+            .querySelector('#carouselTestimonialControls .carousel-inner')
             .scroll({ left: scrollPosition, behavior: 'smooth' });
         }
       });
 
     document
-      .querySelector('#carouselExampleControls .carousel-control-prev')
+      .querySelector('#carouselTestimonialControls .carousel-control-prev')
       .addEventListener('click', function () {
         if (scrollPosition > 0) {
           scrollPosition -= cardWidth;
           document
-            .querySelector('#carouselExampleControls .carousel-inner')
+            .querySelector('#carouselTestimonialControls .carousel-inner')
             .scroll({ left: scrollPosition, behavior: 'smooth' });
         }
       });
