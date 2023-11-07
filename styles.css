@@ -101,6 +101,22 @@
 .custom-letter-spacing {
   letter-spacing: 0.7px; /* Adjust the value as needed */
 }
+.custom-btn:hover {
+  background-color: var(--primary-500);
+}
+
+/* Card */
+.custom-card__title {
+  font-size: 18px;
+}
+.custom-card__desc {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+.custom-card__booked {
+  font-size: 12px;
+  margin-bottom: 4px;
+}
 
 /* Testimonial */
 .testimonial-username {

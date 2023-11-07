@@ -11,7 +11,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="styles.css">
-    <title>Bootstrap demo</title>
+    <title>Coneqtore</title>
 
 </head>
 
@@ -61,7 +61,7 @@
                             </ul>
                         </div>
                         <button type="button" class="btn bg-white text-gray-600 me-2">Log In</button>
-                        <button type="button" class="btn text-white bg-primary-600">Download</button>
+                        <button type="button" class="btn text-white bg-primary-600 custom-btn">Download</button>
                     </div>
                 </div>
             </div>
@@ -86,7 +86,7 @@
                                 ut egestas sed ac duis ut</p>
                             <div class="d-flex-col d-sm-flex align-items-center justify-content-center ">
                                 <button type="button"
-                                    class="btn bg-primary-600 text-white btn-sm-lg rounded-5 px-5 fw-medium py-3  mt-4">Get
+                                    class="btn bg-primary-600 text-white btn-sm-lg rounded-5 px-5 fw-medium py-3  mt-4 custom-btn">Get
                                     Started</button>
                                 <div type="button"
                                     class="bg-transparent text-decoration-underline btn-sm-lg  px-4 fw-medium py-3 text-white mt-sm-4 mt-1">
@@ -120,7 +120,7 @@
                         </div>
                         <div class="col-3 d-grid">
                             <button type="button"
-                                class="btn bg-primary-600 text-white btn-sm-lg rounded-2 d-block fw-medium py-2  mt-4">Search</button>
+                                class="btn bg-primary-600 text-white btn-sm-lg rounded-2 d-block fw-medium py-2  mt-4 custom-btn">Search</button>
                         </div>
                     </div>
                 </form>
@@ -147,7 +147,7 @@
                     </div>
                     <div class="col d-grid">
                         <button type="button"
-                            class="btn btn-primary btn-sm-lg rounded-2 d-block fw-medium py-2  mt-4">Search</button>
+                            class="btn bg-primary-500 text-white btn-sm-lg rounded-2 d-block fw-medium py-2  mt-4 custom-btn">Search</button>
                     </div>
                 </div>
             </form>
@@ -162,12 +162,14 @@
                 <p type="button" class="color-text-primary fw-bold">View All</p>
             </header>
             <div class="mt-4">
-                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4  g-4">
-                    <div class="col  mb-3">
+                <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4 row-cols-xl-5  g-3">
+                    <div class="col mb-3">
                         <div class="card">
                             <img src="images/meal-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
                                 <div class="card-text text-primary-500">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -176,15 +178,18 @@
                                     <i class="fa fa-star"></i>
                                 </div>
 
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
                                     Booked 2
                                     times
                                     today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
+                                </div>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
                                 </div>
                             </div>
                         </div>
@@ -193,7 +198,9 @@
                         <div class="card">
                             <img src="images/meal-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
                                 <div class="card-text text-primary-500">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -202,41 +209,18 @@
                                     <i class="fa fa-star"></i>
                                 </div>
 
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
                                     Booked 2
                                     times
                                     today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col  mb-3">
-                        <div class="card">
-                            <img src="images/meal-1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
-                                <div class="card-text text-primary-500">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
-                                    Booked 2
-                                    times
-                                    today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
                                 </div>
                             </div>
                         </div>
@@ -245,7 +229,9 @@
                         <div class="card">
                             <img src="images/meal-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
                                 <div class="card-text text-primary-500">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -254,15 +240,18 @@
                                     <i class="fa fa-star"></i>
                                 </div>
 
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
                                     Booked 2
                                     times
                                     today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
+                                </div>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
                                 </div>
                             </div>
                         </div>
@@ -271,7 +260,9 @@
                         <div class="card">
                             <img src="images/meal-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
                                 <div class="card-text text-primary-500">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -280,15 +271,18 @@
                                     <i class="fa fa-star"></i>
                                 </div>
 
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
                                     Booked 2
                                     times
                                     today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
+                                </div>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
                                 </div>
                             </div>
                         </div>
@@ -297,7 +291,9 @@
                         <div class="card">
                             <img src="images/meal-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
                                 <div class="card-text text-primary-500">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -306,15 +302,18 @@
                                     <i class="fa fa-star"></i>
                                 </div>
 
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
                                     Booked 2
                                     times
                                     today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
+                                </div>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
                                 </div>
                             </div>
                         </div>
@@ -323,7 +322,9 @@
                         <div class="card">
                             <img src="images/meal-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
                                 <div class="card-text text-primary-500">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -332,15 +333,18 @@
                                     <i class="fa fa-star"></i>
                                 </div>
 
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
                                     Booked 2
                                     times
                                     today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
+                                </div>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
                                 </div>
                             </div>
                         </div>
@@ -349,7 +353,9 @@
                         <div class="card">
                             <img src="images/meal-1.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h5 class="card-title text-gray-900">Burger House Angel’s Burg.. </h5>
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
                                 <div class="card-text text-primary-500">
                                     <i class="fa fa-star"></i>
                                     <i class="fa fa-star"></i>
@@ -358,15 +364,49 @@
                                     <i class="fa fa-star"></i>
                                 </div>
 
-                                <p class="text-gray-600">Steakhouse • Nueva Ecija</p>
-                                <p class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1">
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
                                     Booked 2
                                     times
                                     today
-                                </p>
-                                <div class="d-flex gap-3 mt-2">
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
-                                    <a href="#" class="btn text-white bg-primary-400">2:15 PM</a>
+                                </div>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mb-3">
+                        <div class="card">
+                            <img src="images/meal-1.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title text-gray-900 fw-semibold custom-card__title">Burger House Angel’s
+                                    Burg..
+                                </h5>
+                                <div class="card-text text-primary-500">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+
+                                <p class="text-gray-600 custom-card__desc">Steakhouse • Nueva Ecija</p>
+                                <div
+                                    class="rounded-5 d-inline-block px-3 text-green-900 bg-green-50 fw-semibold py-1 custom-card__booked">
+                                    Booked 2
+                                    times
+                                    today
+                                </div>
+                                <div class="d-flex gap-2 mt-2">
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
+                                    <a href="#" class="btn btn-sm text-white bg-primary-400 fw-semibold custom-btn">2:15
+                                        PM</a>
                                 </div>
                             </div>
                         </div>
