@@ -205,6 +205,12 @@
   transform: translateX(-40px);
 }
 
+/* Google Maps */
+
+iframe {
+  width: 100%;
+  height: 320px;
+}
 /* Text Color */
 
 /* Primary */
