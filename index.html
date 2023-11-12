@@ -20,18 +20,15 @@
 <body>
     <div class="main-header h-auto position-relative">
         <!-- Navigation Bar -->
-        <nav class="navbar navbar-expand-lg z-1  ">
+        <nav class="navbar navbar-expand-lg z-3">
             <div class="container">
                 <a href="" class="navbar-brand">
                     <img src="/images/logo-white.png" alt="Coneqtore">
                 </a>
-                <!-- Mobile Menu -->
-                <button class="navbar-toggler primary-900" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon "></span>
+                <button class="navbar-toggler " type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-
                 <!-- Nav Items -->
                 <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -64,6 +61,52 @@
                         </div>
                         <button type="button" class="btn bg-white text-gray-600 me-2">Log In</button>
                         <button type="button" class="btn text-white bg-primary-600 custom-btn">Download</button>
+                    </div>
+                </div>
+                <div class="offcanvas offcanvas-end d-block d-lg-none" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="/images/logo-dark.png"
+                                alt="Coneqtore"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body d-md-none d-block">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-primary-500 fw-bold " aria-current="page"
+                                    href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link text-dark">Download App</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false">
+                                    Languages <i class="fa-solid fa-globe text-dark"></i>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">English</a></li>
+                                    <li><a class="dropdown-item" href="#">Filipino</a></li>
+                                    <li><a class="dropdown-item" href="#">Espanol</a></li>
+                                </ul>
+                            </li>
+                            <div class="mt-3">
+                                <button type="button"
+                                    class="btn text-white bg-primary-600 custom-btn w-100">Download</button>
+                                <button type="button"
+                                    class="btn bg-white btn-outline-dark text-gray-600 me-2 w-100 mt-2">Log
+                                    In</button>
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -106,7 +149,7 @@
         </header>
         <!-- Search Bar Form Desktop-->
         <div
-            class="position-absolute top-100 start-50 translate-middle bg-white w-75  z-3 d-none d-md-block rounded-2 py-4 px-4 shadow-lg">
+            class="position-absolute top-100 start-50 translate-middle bg-white w-75  z-2 d-none d-md-block rounded-2 py-4 px-4 shadow-lg">
             <div class="container">
                 <form action="#">
                     <div class="row">
